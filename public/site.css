@@ -1,0 +1,67 @@
+.tickets-tablo
+{
+    width: 100%;
+    display: table;
+    border-spacing: 10px;
+    font-family: arial;
+}
+
+.search-form
+{
+    display: table-cell;
+    border: 3px solid orange;
+    padding: 15px 10px;
+    vertical-align: top;
+}
+
+.search-form input, select
+{
+    border: 3px solid orange;
+    height: 20px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.search-form input[type='submit']
+{
+    height: 26px;
+    display: block;
+    width: 100%;
+    background: blue;
+    border: none;
+    margin: 5px 0;
+}
+
+.search-form lable
+{
+    display: block;
+    text-align: center;
+    font-size:12px;
+}
+
+#tickets-list
+{
+    display: table-cell;
+    width: 100%;
+    border: 3px solid orange;
+    padding: 15px 5px;
+}
+
+.ticket {
+    height: 30px;
+
+}
+
+.ticket .body {
+    display: inline-block;
+    border: 3px solid orange;
+    float: left;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.ticket + .ticket {
+    margin-top: 20px;
+}
