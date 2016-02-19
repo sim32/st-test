@@ -54,6 +54,7 @@ $(function(){
                         data.data.forEach(function(item, i){
                             var $ticket = $('<div class="ticket"><div class="body">Билет'+(++i)+'<br/>Время<br/>отправления<br/>'+item.time_departure+'<br/></div></div>');
                             $body.append($ticket);
+                            window.history.pushState("", "Билеты", "/"+searchKey);
                         })
                     }
                 }
