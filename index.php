@@ -12,8 +12,6 @@ define('VIEW_DIR', $_SERVER['DOCUMENT_ROOT'] . '/views/');
 
 $url = empty($_GET['url']) ? array('index') : explode('/', rtrim($_GET['url'], '/'));
 
-
-//require_once('./controllers/' . $url[0] . 'Controller.php');
 require_once('./autolader.php');
 
 
